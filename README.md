@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
 
-## Project info
+# CampusEvents - College Event Aggregator Platform
 
-**URL**: https://lovable.dev/projects/7a7141a0-c674-49dc-9f28-4ace6efddfe2
+A modern web application that aggregates and displays college events from various institutions. Students can easily discover tech talks, hackathons, workshops, and other events across different colleges.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Event Dashboard**: Browse upcoming events with a clean, card-based interface
+- **Event Filtering**: Search and filter events by date, type, college, and location
+- **Event Details**: View comprehensive information about each event
+- **Event Submission**: Submit new events through an intuitive form
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7a7141a0-c674-49dc-9f28-4ace6efddfe2) and start prompting.
+- React with TypeScript
+- React Router for navigation
+- React Hook Form for form handling
+- Tailwind CSS for styling
+- Shadcn UI components
+- Date-fns for date handling
 
-Changes made via Lovable will be committed automatically to this repo.
+## Project Structure
 
-**Use your preferred IDE**
+- `/src/components` - Reusable UI components
+- `/src/pages` - Main application pages
+- `/src/data` - Mock data and data utilities
+- `/src/types` - TypeScript type definitions
+- `/src/hooks` - Custom React hooks
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js and npm installed on your machine
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. Clone the repository
+   ```
+   git clone <repository-url>
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. Navigate to the project directory
+   ```
+   cd campusevents
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+3. Install dependencies
+   ```
+   npm install
+   ```
 
-**Edit a file directly in GitHub**
+4. Start the development server
+   ```
+   npm run dev
+   ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+5. Open your browser and visit `http://localhost:8080`
 
-**Use GitHub Codespaces**
+## Future Enhancements
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- User authentication system
+- Event favoriting and reminders
+- Calendar integration
+- Event recommendation engine
+- Live data from college APIs and web scraping
+- Email notifications for upcoming events
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+MIT License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7a7141a0-c674-49dc-9f28-4ace6efddfe2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
