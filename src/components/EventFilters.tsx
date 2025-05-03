@@ -121,7 +121,7 @@ const EventFiltersComponent = ({ filters, onFilterChange }: EventFiltersProps) =
                 </div>
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Colleges</SelectItem>
+                <SelectItem value="all">All Colleges</SelectItem>
                 {colleges.map((college) => (
                   <SelectItem key={college} value={college}>
                     {college}
@@ -143,7 +143,7 @@ const EventFiltersComponent = ({ filters, onFilterChange }: EventFiltersProps) =
                 </div>
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Locations</SelectItem>
+                <SelectItem value="all">All Locations</SelectItem>
                 {locations.map((loc) => (
                   <SelectItem key={loc} value={loc}>
                     {loc}
